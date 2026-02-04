@@ -14,5 +14,6 @@ public class Book {
     @Column(length = 1000)
     private String summary;
     private Double rating;
+    @Column(nullable = false)
     private Integer viewCount = 0;
 }
