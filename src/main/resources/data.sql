@@ -1,3 +1,6 @@
-INSERT INTO book (title, author, summary, rating, view_count) VALUES ('Le Petit Prince', 'Saint-Exupéry', 'Un classique', 5.0, 0);
-INSERT INTO book (title, author, summary, rating, view_count) VALUES ('1984', 'George Orwell', 'Dystopie', 4.8, 0);
-INSERT INTO book (title, author, summary, rating, view_count) VALUES ('La Boîte à merveilles', 'Ahmed Sefrioui', 'Un récit d''enfance', 4.5, 0);
+INSERT INTO book (title, author, summary, rating, view_count, isbn) VALUES ('Le Petit Prince', 'Antoine de Saint-Exupéry', 'A timeless classic about a young prince who visits various planets.', 5.0, 0,'9782070612758');
+INSERT INTO book (title, author, summary, rating, view_count, isbn) VALUES ('1984', 'George Orwell', 'A dystopian social science fiction novel and cautionary tale.', 4.8, 0,'9780451524935');
+INSERT INTO book (title, author, summary, rating, view_count, isbn) VALUES ('La Boîte à merveilles', 'Ahmed Sefrioui', 'An autobiographical novel depicting Moroccan life in the early 20th century.', 4.5, 0,'9782020516785');
+INSERT INTO book (title, author, summary, rating, view_count, isbn) VALUES ('L''Étranger', 'Albert Camus', 'A novel exploring themes of absurdity and existentialism.', 4.7, 0,'9782070360024');
+INSERT INTO book (title, author, summary, rating, view_count, isbn) VALUES ('The Alchemist', 'Paulo Coelho', 'A mystical story about a shepherd boy following his dream.', 4.3, 0,'9780062315007');
+INSERT INTO book (title, author, summary, rating, view_count, isbn) VALUES ('Harry Potter and the Philosopher''s Stone', 'J.K. Rowling', 'The first adventure of a young wizard at Hogwarts.', 4.9, 0,'9781408855652');

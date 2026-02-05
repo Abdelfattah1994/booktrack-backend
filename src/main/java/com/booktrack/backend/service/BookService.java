@@ -43,7 +43,8 @@ public class BookService {
                 book.getTitle(),
                 book.getAuthor(),
                 book.getSummary(),
-                book.getRating()
+                book.getRating(),
+                book.getIsbn()
         );
     }
 }

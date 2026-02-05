@@ -5,5 +5,6 @@ public record BookResponse(
         String title,
         String author,
         String summary,
-        Double rating
+        Double rating,
+        String isbn
 ) {}
